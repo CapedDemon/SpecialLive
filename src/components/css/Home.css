@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    mix-blend-mode: overlay;
+}
+
+.services{
+    z-index: 10;
+}
+
+.text {
+    position: relative;
+    z-index: 10;
+}
+
+.text h3 {
+    font-size: 4em;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Poppins',
+    sans-serif;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(3, 3, 253, 0.267));
+    line-height: 0.70em;
+    outline: none;
+    animation: animateH 5s linear infinite;
+}
+
+@keyframes animateH {
+
+    0%,
+    10%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #0e3742;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #1553ef;
+        text-shadow: 0 0 10px #12d7fe,
+            0 0 20px #12d7fe,
+            0 0 40px #12d7fe,
+            0 0 80px #12d7fe,
+            0 0 160px #12d7fe;
+    }
+}
+
+.text h5 {
+    font-size: 2.3em;
+    font-weight: 700;
+    color: rgb(255, 231, 19);
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Poppins',
+    sans-serif;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(241, 139, 5));
+    line-height: 0.70em;
+    outline: none;
+    animation: animatet 5s linear infinite;
+}
+
+.text p {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 600;
+}
+
+
+.head-t{
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0 5px;
+    text-shadow: 0 0 20px #ff005b;
+    transform: translate(-50%, -50%);
+}
+
+
+#happiness{
+    background-color: aliceblue;
+}
+
+#sad{
+    background-color: blueviolet;
+}
+
+.check a{
+    display: inline-block;
+    font-size: 1em;
+    background: #111;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.check a:hover{
+    letter-spacing: 6px;
+    background-color: #01fe87;
+    color: black;
+    transition:background-color 1s ease-in;
+}
+
+.check h6 {
+    font-size: 20px;
+    font-weight: 1000;
+    color: #01fe87;
+}
+
+.move{
+    position: relative;
+    font-size: 2.5vw;
+    letter-spacing: 10px;
+    color: #0e3742;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+    }
+
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:#12d59b;
+        text-shadow: 0 0 10px #07cca4,
+        0 0 20px #03f4c4,
+        0 0 40px #07cca4,
+        0 0 80px #03f4c4,
+        0 0 160px #07cca4;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .showcase,
+    .showcase header {
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .showcase{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .services{
+        align-items: center;
+        justify-content: center;
+    }
+}

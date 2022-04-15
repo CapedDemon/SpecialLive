@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+.navbar-brand{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.nav-link{
+    font-family: 'Grape Nuts',
+    cursive;
+    font-weight: 1000;
+    font-size: 25px;
+}
