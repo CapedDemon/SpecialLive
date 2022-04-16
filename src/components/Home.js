@@ -42,11 +42,7 @@ const Home = () => {
             <h6>MAIN MANTRA TO LIVE SPECIAL - </h6>
             <Link to="/mainmantra">Explore</Link>
           </div>
-          <br />
-          <div className="check">
-            <h6>Check whether you are living life to the fullest - </h6>
-            <a href="#">Explore</a>
-          </div>
+          
         </div>
         <div className="services">
           <div className="container py-4">
