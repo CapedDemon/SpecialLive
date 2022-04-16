@@ -1,4 +1,4 @@
-# SpecialLife
+# [SpecialLife](https://speciallife.pages.dev/)
 A place where you can get the full guide how to live everyday special and be happy.
 
 # About the project
