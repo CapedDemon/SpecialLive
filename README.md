@@ -9,7 +9,7 @@ Then, we have special site which contains the secret to live life to the fullest
 # How to run on your local machine?
 Just run the following commands  
 ```
-git clone 
+git clone https://github.com/Shreejan-35/SpecialLive.git
 ```
 ```
 npm start
